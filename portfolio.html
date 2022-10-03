@@ -5,23 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--заголовок-->
 
-    <header>
+    <header class="header-link">
       <nav>
-        <a href="/">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <a class="logo" href="./index.html"
+          ><span class="logo-accent">Web</span
+          ><span class="logo-foter">Studio</span></a
+        >
+
+        <ul class="list">
+          <li><a class="menu1" href="./index.html">Студія</a></li>
+          <li>
+            <a class="menu2" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li><a class="menu3" href="">Контакти</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li><a class="mail" href="">info@devstudio.com</a></li>
+        <li><a class="tel" href="">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
@@ -30,100 +43,110 @@
     <main>
       <section>
         <h1>
-          <button type="button">Усі</button>
-          <button type="button">Веб-сайти</button>
-          <button type="button">Додатки</button>
-          <button type="button">Дизайн</button>
-          <button type="button">Маркетинг</button>
+          <ul class="list">
+            <li><button class="general-button" type="button">Усі</button></li>
+            <li>
+              <button class="general-button" type="button">Веб-сайти</button>
+            </li>
+            <li>
+              <button class="general-button" type="button">Додатки</button>
+            </li>
+            <li>
+              <button class="general-button" type="button">Дизайн</button>
+            </li>
+            <li>
+              <button class="general-button" type="button">Маркетинг</button>
+            </li>
+          </ul>
         </h1>
 
         <!-- проекти -->
 
-        <ul>
-          <li>
+        <ul class="img">
+          <li class="list">
             <img
               src="./photo/port1.jpg"
               alt="Веб-сайт на якому зоображені викладачі дві жінки і чоловік"
-              width="400"
+              width="370"
             />
             <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <p class="section-subtitle">Веб-сайт</p>
           </li>
 
-          <li>
+          <li class="list">
             <img
               src="./photo/project2.jpg"
               alt="два баскетболіста боряться за мяч"
-              width="400"
+              width="370"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <h2 class="section-title">Постер New Orlean vs Golden Star</h2>
+            <p class="section-subtitle">Дизайн</p>
           </li>
 
-          <li>
+          <li class="list">
             <img
               src="./photo/project3.jpg"
               alt="логотип ресторану на фоні риба"
-              width="400"
+              width="370"
             />
-            <h2>Ресторан Seafood</h2>
-            <p>Додаток</p>
+            <h2 class="section-title">Ресторан Seafood</h2>
+            <p class="section-subtitle">Додаток</p>
           </li>
 
-          <li>
+          <li class="list">
             <img
               src="./photo/project4.jpg"
               alt="чорні вакуумні навушники"
-              width="400"
+              width="370"
             />
-            <h2>Проєкт Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="section-title">Проєкт Prime</h2>
+            <p class="section-subtitle">Маркетинг</p>
           </li>
 
-          <li>
+          <li class="list">
             <img
               src="./photo/project5.jpg"
               alt="дві коробки білого і коричневого кольору"
-              width="400"
+              width="370"
             />
-            <h2>Проєкт Boxes</h2>
-            <p>Додаток</p>
+            <h2 class="section-title">Проєкт Boxes</h2>
+            <p class="section-subtitle">Додаток</p>
           </li>
 
-          <li>
+          <li class="list">
             <img
               src="./photo/project6.jpg"
               alt="компютер з зображенням сайту"
-              width="400"
+              width="370"
             />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="section-title">Inspiration has no Borders</h2>
+            <p class="section-subtitle">Веб-сайт</p>
           </li>
 
-          <li>
+          <li class="list">
             <img
               src="./photo/project7.jpg"
               alt="відкритий журнал зі статтями та зоображеннями"
-              width="400"
+              width="370"
             />
-            <h2>Видання Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="section-title">Видання Limited Edition</h2>
+            <p class="section-subtitle">Дизайн</p>
           </li>
 
-          <li>
-            <img src="./photo/project8.jpg" alt="логотип бренду" width="400" />
-            <h2>Проєкт LAB</h2>
-            <p>Маркетинг</p>
+          <li class="list">
+            <img src="./photo/project8.jpg" alt="логотип бренду" width="370" />
+            <h2 class="section-title">Проєкт LAB</h2>
+            <p class="section-subtitle">Маркетинг</p>
           </li>
 
-          <li>
+          <li class="list">
             <img
               src="./photo/project9.jpg"
               alt="відкритий ноутбук зі зоображенням сайту"
-              width="400"
+              width="370"
             />
-            <h2>Growing Business</h2>
-            <p>Додаток</p>
+            <h2 class="section-title">Growing Business</h2>
+            <p class="section-subtitle">Додаток</p>
           </li>
         </ul>
       </section>
@@ -131,22 +154,27 @@
 
     <!--підвал-->
 
-    <footer>
-      <a href="./index.html">WebStudio</a>
+    <footer class="main-hero">
+      <a class="logo" href="./index.html"
+        ><span style="color: #2196f3">Web</span
+        ><span style="color: #fff">Studio</span></a
+      >
 
-      <address>
-        <ul>
+      <address class="main-address">
+        <ul class="list">
           <li>
-            <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+            <a class="address" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
 
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
