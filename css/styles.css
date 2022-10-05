@@ -10,8 +10,9 @@
 
 body {
     color: var(--color-primary);
-    font-family: 'Roboto','Raleway',sans-serif;
-    font-size: 16px; 
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px; 
+    letter-spacing: 0.03em;
 }
 .header-link {
      background-color: var(--color-white);
@@ -24,88 +25,34 @@ body {
 }
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     text-decoration: none;
    }
- .logo:hover {
+ .logo:hover, :focus {
     color: var(--color-inverted);
-    
- }
- .logo:focus {
-    color: var(--color-inverted);
-    border: 2px solid black;
- }
-.menu1 {
+    }
+.menu {
     color: var(--color-primary);
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     }
 
-.menu1:hover {
+.menu:hover, :focus {
     color: var(--color-inverted);
     background-color: var(--color-white);
    }
-.menu1:focus {
-    color: var(--color-inverted);
-    background-color: var(--color-white);
-    border: 2px solid black;
-   }
-.menu2 {
-    color: var(--color-primary);
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-   }
-.menu2:hover {
-    color: var(--color-inverted);
-    background-color: var(--color-white);
-   }
-.menu2:focus {
-    color: var(--color-inverted);
-    background-color: var(--color-white);
-    border: 2px solid black;
-}
-.menu3 {
-    color: var(--color-primary);
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-}
-.menu3:hover {
-    color: var(--color-inverted);
-    background-color: var(--color-white);
-}
-.menu3:focus {
-    color: var(--color-inverted);
-    background-color: var(--color-white);
-    border: 2px solid black;
-}
+
 .mail {
     color: var(--color-secondary);
     font-size: 14px;
     text-decoration: none;
 }
-.mail:hover {
+.mail:hover,:focus {
     color: var(--color-inverted);
-    background-color: var(--color-white);
-}
-.mail:focus {
-    color: var(--color-inverted);
-    background-color: var(--color-white);
-    border: 2px solid black;
 }
 .tel {
     color: var(--color-secondary);
@@ -114,126 +61,104 @@ body {
     text-decoration: none;
     }
 
-.tel:hover {
+.tel:hover, :focus {
     color: var(--color-inverted);
-    background-color: var(--color-white);
-}
-.tel:focus {
-    color: var(--color-inverted);
-    background-color: var(--color-white);
-    border: 2px solid black;
 }
 .main-hero {
+   font-family: 'Raleway';
    background: var(--color-background);
+   letter-spacing: 0.06em;
 }
 .hero-title {
     color: var(--color-white);
     background:var(--color-background);
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1,36;
 
 }
 
 .button-main {
     background-color: var(--color-inverted);
     color: var(--color-white);
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 700;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 1,87;
 }
 
-.button-main:hover {
+.button-main:hover, :focus {
     background:var(--color-inverted);
     color: var(--color-background-box1);
     cursor: pointer;
 }
-.button-main:focus {
-    background: var(--color-inverted);
-    color: var(--color-background-box1);
-    border: 2px solid black;
+.section {
+    background-color: var(--color-white);
 }
-
-.section1 {
-    background-color: var(--color-background-box1);
+.section-footer {
+    background-color:var(--color-background-box1) ;
 }
 .section-title {
     color: var(--color-primary);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 1,14;
 }
 .section-subtitle {
     color: var(--color-secondary);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 1,71;
 }
 .main-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-}
-.section2 {
-    background-color: var(--color-background-box1);
+    line-height: 1,16;
 }
 .list {
     list-style: none;
-}
-.section3 {
-    background-color: var(--color-background-box2);
-    
 }
 .img {
     background-color: var(--color-white);
 }
 .address {
-    color: var(--color-white);
-    text-decoration: none;
+        color: var(--color-white);
+        text-decoration: none;
 }
 .address:hover {
     color: var(--color-inverted);
-    background-color: var(--color-white);
+    
 }
 .main-address {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1, 19;
+        text-decoration: none;
 }
 
 .general-button {
     background-color: var(--color-background-box2);
     color: var(--color-primary);
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px
+    line-height: 1,62;
 
    
 }
 .general-button:hover {
-    background-color: var(--color-inverted) ;
-    cursor: pointer;
+    background-color: var(--color-inverted);
+        cursor: pointer;
 }
 .general-button:focus {
-    background: var(--color-inverted);
+background: var(--color-inverted);
     color: var(--color-background-box1);
-    border: 2px solid black;
 }
-
 
 
 
